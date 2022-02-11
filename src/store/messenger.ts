@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { stat } from 'fs';
 import { initialState } from '../utils/mockData';
 // 만약 다른 곳에서 쓰게 된다면 파일로 분리하기
 // User의 userId uuid, string, number중 선택하기
